@@ -11,6 +11,10 @@ var server = http.createServer(function(req,res){
 });
 
 
+const tst = () => {
+    
+}
+
 server.listen(3000, function(){
     console.log('Servidor rodando na porta 3000');
 });
